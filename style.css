@@ -1,12 +1,15 @@
 *{
     font-family: "Mulish", serif;
 }
+header{
+    margin: 0 100px;
+}
 /* Nav Part */
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 100px;
+    margin: 50px 0;
 }
 nav>div{
     display: flex;
@@ -21,6 +24,7 @@ nav>div>h2{
     color: #FF5400;
     font-size: 36px;
     font-weight: 800;
+    
 }
 nav>div>h2>span{
     color: #131318;
@@ -47,4 +51,86 @@ color: #FF5400;
 text-align: center;
 font-size: 18px;
 font-weight: 400;
+}
+/* Banner Part */
+.banner{
+    margin: 50px 0;
+position: relative;
+}
+.banner>img{
+width: 100%;
+}
+.banner-text{
+    position: absolute;
+    left: 23%;
+    top: 12%;
+}
+.banner-text>h3{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.banner-text>p{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.input-text{
+display: flex;
+justify-content: center;
+gap: 20px;
+}
+.input-text input{
+   padding: 10px 10px;
+    border-radius: 8px;
+background: #FFF;
+border: none;
+}
+.banner-text select{
+    padding: 10px 10px;
+    border-radius: 8px;
+background: #FFF;
+border: none;
+}
+.banner-text button{
+    padding: 10px 10px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+border: none;
+}
+main{
+    margin: 50px 100px;
+}
+/* Tour Details Part */
+.tour-details{
+display: flex;
+align-items: center;
+gap: 20px;
+}
+.tour-details-text>h3{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.tour-details-text p{
+color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+}
+.tour-details-text>button{
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    padding: 10px ;
+    border: none;
+}
+.tour-details-img>img{
+    width: 500px;
+    height: 500px;
 }

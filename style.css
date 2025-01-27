@@ -1,0 +1,50 @@
+*{
+    font-family: "Mulish", serif;
+}
+/* Nav Part */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 100px;
+}
+nav>div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+nav>div>img{
+    width: 48px;
+    height: 56.008px;
+}
+nav>div>h2{
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+}
+nav>div>h2>span{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+nav>ul>li{
+list-style: none;
+}
+nav>ul>li>a{
+text-decoration: none;
+color:  #424247;
+text-align: center;
+font-size: 18px;
+font-weight: 700;
+}
+nav>ul>li>a>span{
+color: #FF5400;   
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+}

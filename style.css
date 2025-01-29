@@ -134,3 +134,83 @@ font-weight: 400;
     width: 500px;
     height: 500px;
 }
+/* Destination Part */
+.destination{
+margin: 50px 0;
+}
+.destination>h3{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.destination>p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.destination-img{
+display: flex;
+gap: 20px;
+margin-bottom: 15px;
+}
+.destination-img div{
+    position: relative;
+}
+.destination-img div>p{
+position: absolute;
+left: 40%;
+top: 40%;
+color: #FFF;
+text-align: center;
+font-size: 28px;
+font-weight: 800;
+}
+/* Cause Of choice Part */
+.cause-of-choice{
+
+}
+.cause-of-choice>h3{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.cause-of-choice>p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.cause-of-choice-details{
+    display: flex;
+    gap: 20px;
+}
+.choice-list{
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+padding: 30px;
+}
+.choice-list>img{
+    width: 60px;
+    height: 60px;
+}
+.choice-list>h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.choice-list>p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.choice{
+    margin-top: 20px;
+}
